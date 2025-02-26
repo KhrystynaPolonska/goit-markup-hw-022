@@ -26,31 +26,27 @@ main {
 background-color: #2e2f42;
 
 }
-
-.logo {
-font-family: "Raleway", sans-serif;
-font-weight: 700;
-font-size: 18px;
-line-height: 1.17;
-letter-spacing: 0.03em;
-text-transform: uppercase;
-color: #4d5ae5;
-}
-
-.logo-style {
-font-family: "Raleway", sans-serif;
-font-size: 18px;
-font-weight: 700;
-line-height: 21px;
-letter-spacing: 3px;
-color: #2e2f42;
-}
-
+.header{}
 .nav-header {}
-
-.nav-header-item {}
-
-.header-nav-list {}
+.logo {
+	font-family: "Raleway", sans-serif;
+	font-weight: 700;
+	font-size: 18px;
+	line-height: 1.17;
+	letter-spacing: 0.03em;
+	text-transform: uppercase;
+	color: #4d5ae5;
+}
+.logo-style {
+	font-family: "Raleway", sans-serif;
+	font-size: 18px;
+	font-weight: 700;
+	line-height: 21px;
+	letter-spacing: 3px;
+	color: #2e2f42;
+}
+.nav-header-list {}
+.header-nav-item {}
 
 .item-nav-link {
 font-size: 16px;
@@ -64,14 +60,13 @@ color: #2e2f42;
 color: #404bbf;
 }
 
-.header-nav-item {}
-
-.address {}
+.address {
+font-style: normal;
+}
 .addr-list {}
 .addr-item {}
 
 .addr-link {
-font-style: normal;
 font-size: 16px;
 line-height: 24px;
 letter-spacing: 0.02em;
