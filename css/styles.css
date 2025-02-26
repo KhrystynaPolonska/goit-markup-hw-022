@@ -38,7 +38,7 @@ color: #4d5ae5;
 }
 
 .logo-style {
-font-family: "Raleway";
+font-family: "Raleway", sans-serif;
 font-size: 18px;
 font-weight: 700;
 line-height: 21px;
@@ -67,21 +67,18 @@ color: #404bbf;
 .header-nav-item {}
 
 .address {}
-
 .addr-list {}
-
 .addr-item {}
 
 .addr-link {
+font-style: normal;
 font-size: 16px;
 line-height: 24px;
-font-style: normal;
 letter-spacing: 0.02em;
 color: #434455;
 }
-
 .addr-link:hover,
-.addr-list:focus {
+.addr-link:focus {
 color: #404bbf;
 }
 
@@ -141,7 +138,7 @@ color: #2E2F42;
 }
 
 .team {
-	background-color: #FFFFFF;
+	background-color: #F4F4FD;
 }
 
 .team-title {
@@ -156,9 +153,12 @@ color: #2E2F42;
 }
 
 .team-list {
+
 }
 
-.team-list-item {}
+.team-list-item {
+background-color: #FFFFFF;
+}
 
 .team-item-title {
 	font-weight: 500;
